@@ -1,0 +1,26 @@
+{
+  "skill_name": "web-scraper-cn",
+  "evals": [
+    {
+      "id": 1,
+      "name": "抓取中山AI算力补贴政策",
+      "prompt": "帮我抓取这个链接的内容：https://zsai.zszwfw.cn/subsidiesDetail?id=17，提取政策的关键信息",
+      "expected_output": "提取到《中山市人工智能算力券补贴实施细则》的主要内容，包括申请条件、补贴标准、申请流程等关键信息",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "抓取政府公告页面",
+      "prompt": "访问这个国内政府网站，提取公告内容：https://www.example.gov.cn/announcement",
+      "expected_output": "成功抓取并提取页面中的公告标题、发布日期、正文内容等关键信息",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "提取企业官网文章",
+      "prompt": "帮我查看这个企业官网的文章详情：https://company.example.com/news/article/123",
+      "expected_output": "提取文章标题、发布时间、作者、正文内容等",
+      "files": []
+    }
+  ]
+}
