@@ -1,8 +1,8 @@
 # waytouniverse-skills
 
-开源 AI 技能合集，支持 **Claude Code** / **OpenClaw (QClaw)** / **OpenAI Codex** 三种 AI 编码工具。
+开源 AI 技能合集，支持 **Claude Code** / **OpenClaw (QClaw)** / **OpenAI Codex** / **WorkBuddy** 四种 AI 编码工具。
 
-共 **18 个技能**，按用途分三组。带源码目录的可直接复制安装；其余提供 zip 包下载（也可在网页端「技能库」点「复制给 AI」一键安装）。
+共 **19 个技能**，按用途分三组。带源码目录的可直接复制安装；其余提供 zip 包下载（也可在网页端「技能库」点「复制给 AI」一键安装）。
 
 ## 技能列表
 
@@ -19,6 +19,7 @@
 | Word 文档处理 | 创建、编辑、分析 .docx，支持修订、批注、格式保留与文本提取。 | [docx.zip](https://github.com/waytouniverse/waytouniverse-skills/releases/latest/download/docx.zip) |
 | PDF 全能处理 | 合并、拆分、旋转、水印、加解密、表单填写与 OCR 识别。 | [pdf.zip](https://github.com/waytouniverse/waytouniverse-skills/releases/latest/download/pdf.zip) |
 | 电子表格处理 | 创建、编辑、分析 .xlsx / .csv，支持公式、格式化与数据可视化。 | [xlsx.zip](https://github.com/waytouniverse/waytouniverse-skills/releases/latest/download/xlsx.zip) |
+| 外贸出口报价单 | 中英双语 USD 报价单生成器：把产品参数／采购清单（含手写清单图片）整理成带自动计算公式、可直接发客户的 Excel 报价单，附内部跟进页。 | [export-quotation/](./export-quotation) |
 
 ### 飞书生态
 
@@ -52,6 +53,9 @@ cp -r <技能目录> ~/.agents/skills/
 
 # OpenAI Codex
 cp -r <技能目录> ~/.codex/skills/
+
+# WorkBuddy
+cp -r <技能目录> ~/.workbuddy/skills/
 ```
 
 下载 zip 的技能，解压后再复制，例如：
@@ -80,7 +84,8 @@ ln -s /你的路径/waytouniverse-skills/ppt-generator ~/.claude/skills/ppt-gene
 | Claude Code | `~/.claude/skills/` |
 | OpenClaw (QClaw) | `~/.agents/skills/` |
 | OpenAI Codex | `~/.codex/skills/` |
+| WorkBuddy | `~/.workbuddy/skills/` |
 
 ## 许可证
 
-MIT
+MIT，详见 [LICENSE](./LICENSE)。各技能目录内的第三方素材以其自身说明为准。

@@ -1,0 +1,49 @@
+{
+  "title": "五金配件出口报价单（客户采购清单 2026-11-09）",
+  "quotation_no": "QT-20261109-001",
+  "quote_date": "2026-11-09",
+  "validity_days": 30,
+  "incoterm": "FOB",
+  "currency": "USD / 美元",
+  "rate": 6.7188,
+  "rate_date": "2026-11-09",
+  "rate_source": "中国人民银行授权中国外汇交易中心《2026年11月9日人民币汇率中间价公告》，1 USD = 6.7188 CNY",
+  "source_note": "明细依据贵司 2026-11-09 手写采购清单整理（共 14 项），单价按清单所列 USD 价格录入 / Items transcribed from Buyer's handwritten purchase list dated 2026-11-09 (14 items); unit prices as listed in USD.",
+  "seller": {},
+  "buyer": {},
+  "bank": {},
+  "discount_rate": 0,
+  "tax_rate": 0,
+  "additional_charges": {},
+  "items": [
+    {"cn": "门锁", "en": "Door Lock", "spec": "DL-801 / SS 304", "qty": 100, "unit": "pcs", "price": 7.85, "remark": "带钥匙 / w/ keys"},
+    {"cn": "门锁", "en": "Door Lock", "spec": "DL-802 / SS 201", "qty": 100, "unit": "pcs", "price": 8.20, "remark": "同上：带钥匙 / ditto: w/ keys"},
+    {"cn": "铰链（合页）", "en": "Hinge", "spec": "HG-304 / 4\" x 3\" x 2.5", "qty": 200, "unit": "pcs", "price": 0.72, "remark": "锌合金 / zinc", "comment": "第 3 项 Hinge 规格手写为 .4\"x3\"x2.5，前导点疑为笔点，已按 4\" x 3\" x 2.5 录入，请核对。"},
+    {"cn": "拉手", "en": "Handle", "spec": "HD-128 / 128mm, BK", "qty": 300, "unit": "pcs", "price": 1.15, "remark": "同上：锌合金 / ditto: zinc", "comment": "第 4 项 Handle 规格手写为 .128mm, BK，前导点疑为笔点，已按 128mm, BK 录入，请核对。"},
+    {"cn": "抽屉滑轨", "en": "Drawer Slide", "spec": "DS-450 / 45cm", "qty": 100, "unit": "sets", "price": 2.60, "remark": "缓冲阻尼 / soft close"},
+    {"cn": "橱柜拉手", "en": "Cabinet Handle", "spec": "CH-96 / 96mm, SS", "qty": 300, "unit": "pcs", "price": 0.68, "remark": "同上：缓冲阻尼 / ditto: soft close", "comment": "第 6 项备注手写为引号「\"」（同上），按上一行展开为 soft close；Cabinet Handle 配缓冲阻尼语义存疑，请与客户确认。"},
+    {"cn": "挂钩", "en": "Hook", "spec": "HK-206 / SS", "qty": 500, "unit": "pcs", "price": 0.35, "remark": "墙钩 / wall hook"},
+    {"cn": "插销", "en": "Bolt", "spec": "BT-001 / 6 inch", "qty": 200, "unit": "pcs", "price": 0.55, "remark": "门插销 / door bolt"},
+    {"cn": "滑轮（滑轨滚轮）", "en": "Sliding Roller", "spec": "SR-88 / nylon wheel", "qty": 200, "unit": "pcs", "price": 0.95, "remark": "窗用 / for window"},
+    {"cn": "气弹簧", "en": "Gas Spring", "spec": "GS-100N / 100N", "qty": 100, "unit": "pcs", "price": 1.25, "remark": "柜用 / for cabinet"},
+    {"cn": "层板托（搁板支架）", "en": "Shelf Bracket", "spec": "SB-200 / 200mm, WH", "qty": 200, "unit": "pcs", "price": 0.80, "remark": "铁质 / iron"},
+    {"cn": "门挡", "en": "Door Stopper", "spec": "DS-001 / SS", "qty": 300, "unit": "pcs", "price": 0.28, "remark": "地装式 / floor mount"},
+    {"cn": "磁吸（门磁扣）", "en": "Magnet Catch", "spec": "MC-88 / plastic, white", "qty": 500, "unit": "pcs", "price": 0.22, "remark": "小号 / Small Size"},
+    {"cn": "螺丝套装", "en": "Screw Set", "spec": "SC-007 / M4 x 20", "qty": 1000, "unit": "pcs", "price": 0.03, "remark": "镀锌 / zinc plated"}
+  ],
+  "followups": [
+    {"original": "Need better price !!!（双下划线）", "interpretation": "要求更优惠价格 / Buyer requests a better price", "status": "Pending", "action": "复核成本，给出折扣率或阶梯报价；折扣填主表折扣率栏 / Review cost, offer discount or tiered pricing"},
+    {"original": "MOQ?（圈注）", "interpretation": "询问最小起订量 / Asking about minimum order quantity", "status": "Pending", "action": "按明细 Qty 列逐型号确认 MOQ 并书面回复 / Confirm MOQ per item against the Qty column"},
+    {"original": "Check packing / Color box? ↓", "interpretation": "确认包装方式、是否需要彩盒 / Confirm packing and color-box option", "status": "Pending", "action": "回复默认中性出口包装及彩盒加价 / Confirm neutral export packing and color-box surcharge"},
+    {"original": "Samples? Send by Courier", "interpretation": "索要样品并要求快递寄送 / Samples requested by courier", "status": "Pending", "action": "确认样品清单、快递账号与运费承担方 / Confirm sample list, courier account and freight terms"},
+    {"original": "Good Price ✓（圈注 + 勾）", "interpretation": "圈注认可价格 / Price marked as acceptable", "status": "Noted", "action": "维持报价竞争力并在有效期内锁定 / Keep the price competitive within the validity period"}
+  ],
+  "transcription_notes": "录入说明：清单备注列 3 处引号「\"」表示「同上」，已按上一行展开（w/ keys、zinc、soft close）；其中第 6 项 Cabinet Handle 的「同上」指向 soft close，语义存疑，请与客户核实。手写规格 .4\"x3\"x2.5 与 .128mm 的前导点疑为笔点，已按 4\"x3\"x2.5 与 128mm 录入。左上角有一处涂黑无法辨认，已略去。 / Ditto marks expanded; item 6 needs verification. Leading dots in two specs treated as pen marks. One scribbled note was illegible and omitted.",
+  "usage_notes": [
+    "1. 浅黄色单元格为填写区；浅蓝灰单元格为公式自动计算，请勿手动覆盖。 / Yellow cells are input fields; light blue cells are formula-driven.",
+    "2. 明细区共 14 行（第 20~33 行）。如需增减，请修改输入 JSON 的 items 后重新生成，切勿手工插行（公式引用会错位）。 / 14 item rows; regenerate from JSON instead of inserting rows manually.",
+    "3. 发送客户前，请把 [ ] 占位内容替换为贵司真实信息，核对银行账号、SWIFT、贸易术语与付款方式。 / Replace all [ ] placeholders and verify bank details, Incoterms and payment terms.",
+    "4. 单价按客户手写清单原样录入；客户在清单上写有 'Need better price !!!'，如需让利请在折扣率栏填比例，总计会自动更新。 / Unit prices are transcribed as-is; enter a discount rate if you decide to concede price.",
+    "5. HS 编码、毛重、体积清单未提供，留空待补；报价前请补齐以便核算运费与报关。 / HS codes, G.W. and CBM were not on the buyer's list — fill in before quoting freight and customs."
+  ]
+}
